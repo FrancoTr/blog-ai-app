@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -17,6 +18,16 @@ const Navbar = (props: Props) => {
           <p>Sign In</p>
         </div>
       </nav>
+      <div className='flex justify-between gap-10 mt-5 mb-4 mx-10'>
+        <div className='basis-2/3 md:mt-3'>
+          <h1 className='font-bold text-3xl md:text-5xl'>BLOG OF THE FUTURE</h1>
+          <p className='text-sm mt-3'>
+            Blog dedicated towards AI and generation and job automation
+          </p>
+        </div>
+        <div className='basis-full relative w-auto h-32 bg-wh-500'>--Image right here--</div>
+      </div>
+      <hr className='border-1 mx-10' />
     </header>
   );
 };
