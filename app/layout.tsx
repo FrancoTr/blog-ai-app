@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
 import Navbar from "app/(shared)/Navbar";
+import Footer from "app/(shared)/Footer";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 
@@ -15,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
