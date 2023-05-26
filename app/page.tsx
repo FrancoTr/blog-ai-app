@@ -1,3 +1,5 @@
+import Trending from "app/(home)/Trending";
+
 export default function Home() {
   return (
     <main className='px-10 leading-7'>
