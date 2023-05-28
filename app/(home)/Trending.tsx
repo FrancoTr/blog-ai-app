@@ -42,6 +42,11 @@ const Trending = (props: Props) => {
         <TrendingCard className='col-span-1 row-span-1 bg-wh-500' />
         <TrendingCard className='col-span-1 row-span-1 bg-wh-500' />
       </div>
+      <p className='text-sm'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae consequuntur,
+        aperiam, eveniet cumque voluptas facere laboriosam dolor quos voluptatem sunt similique
+        iusto?
+      </p>
     </section>
   );
 };
