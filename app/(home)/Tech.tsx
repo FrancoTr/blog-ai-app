@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "app/(shared)/Card";
 
 type Props = {};
 
@@ -12,7 +13,8 @@ const Tech = (props: Props) => {
         <p className='font-bold text-2xl'>Latest News in technology</p>
       </div>
       <div className='sm:grid grid-cols-2 grid-rows-3 gap-x-8 gap-y-8 my-5'>
-        <div className='bg-wh-500 col-span-1 row-span-3'></div>
+        {/* LARGE CARD */}
+        <Card className='bg-wh-500 col-span-1 row-span-3' imageHeight='h-96' isLongForm={true} />
         <div className='bg-wh-500 col-span-1 row-span-1'></div>
         <div className='bg-wh-500 col-span-1 row-span-1'></div>
         <div className='bg-wh-500 col-span-1 row-span-1'></div>
