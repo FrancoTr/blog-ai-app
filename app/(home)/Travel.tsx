@@ -18,6 +18,10 @@ const Travel = (props: Props) => {
         <Card className='basis-1/3 bg-wh-500 mt-5 sm:mt-0' imageHeight='h-80' />
         <Card className='basis-1/3 bg-wh-500 mt-5 sm:mt-0' imageHeight='h-80' />
       </div>
+      <Card
+        className='sm:flex justify-between items-center gap-3 mt-7 mb-5 bg-wh-500'
+        imageHeight='h-80'
+      />
     </section>
   );
 };
